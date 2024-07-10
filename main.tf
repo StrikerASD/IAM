@@ -1,5 +1,5 @@
 module "IAM" {
-  source = "github.com/StrikerASD/IAM"
+  source = "github.com/StrikerASD/IAM_Module"
 
   project_id = "sb-izal-20240703-111957"
 
