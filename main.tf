@@ -1,4 +1,4 @@
-module "service_accounts" {
+module "IAM" {
   source = "github.com/StrikerASD/IAM"
 
   project_id = "sb-izal-20240703-111957"
