@@ -4,7 +4,7 @@ module "IAM" {
   project_id = "sb-izal-20240703-111957"
 
   service_accounts = {
-    "cluster-service-accoount@sb-izal-20240703-111957.iam.gserviceaccount.com" = {
+    "cluster-service-account@sb-izal-20240703-111957.iam.gserviceaccount.com" = {
       display_name = "Cluster SA"
       roles        = [
         "roles/viewer",
