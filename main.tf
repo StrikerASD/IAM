@@ -4,14 +4,14 @@ module "IAM" {
   project_id = "sb-izal-20240703-111957"
 
   service_accounts = {
-    "cluster-service-account@sb-izal-20240703-111957.iam.gserviceaccount.com" = {
+    "cluster service account" = {
       display_name = "Cluster SA"
       roles        = [
         "roles/viewer",
         "roles/storage.admin"
       ]
     },
-    "jenkins-gke@sb-izal-20240703-111957.iam.gserviceaccount.com" = {
+    "jenkins-gke" = {
       display_name = "Jenkins builder SA"
       roles        = [
         "roles/cloudkms.admin",
