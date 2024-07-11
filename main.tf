@@ -24,12 +24,12 @@ module "IAM" {
         "roles/storage.admin"
       ]
     }
-    "service-376765086748@gs-project-accounts.iam.gserviceaccount.com" = {
-      display_name = "Cloud Storage SA"
-      roles        = [
-        "roles/cloudkms.cryptoKeyEncrypterDecrypter"
-      ]
-    }
+#     "service-376765086748@gs-project-accounts.iam.gserviceaccount.com" = {
+#       display_name = "Cloud Storage SA"
+#       roles        = [
+#         "roles/cloudkms.cryptoKeyEncrypterDecrypter"
+#       ]
+#     }
   }
 }
 
