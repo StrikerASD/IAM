@@ -15,7 +15,7 @@ module "IAM" {
   }
 
   roles = {
-    "roles/viewer" = "serviceAccount:cluster-service-account"
+    "roles/viewer" = "serviceAccount:cluster-service-account@sb-izal-20240703-111957.iam.gserviceaccount.com"
   }
 
 #   service_accounts = {
