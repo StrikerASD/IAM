@@ -15,14 +15,14 @@ module "IAM" {
 
   roles = {
     "roles/viewer"                          = "serviceAccount:cluster-service-account@sb-izal-20240703-111957.iam.gserviceaccount.com"
-    "roles/cloudkms.admin"                  = "jenkins-gke@sb-izal-20240703-111957.iam.gserviceaccount.com"
-    "roles/cloudkms.verifier"               = "jenkins-gke@sb-izal-20240703-111957.iam.gserviceaccount.com"
-    "roles/container.admin"                 = "jenkins-gke@sb-izal-20240703-111957.iam.gserviceaccount.com"
-    "roles/resourcemanager.projectIamAdmin" = "jenkins-gke@sb-izal-20240703-111957.iam.gserviceaccount.com"
-    "roles/owner"                           = "jenkins-gke@sb-izal-20240703-111957.iam.gserviceaccount.com"
-    "roles/iam.serviceAccountAdmin"         = "jenkins-gke@sb-izal-20240703-111957.iam.gserviceaccount.com"
-    "roles/iam.serviceAccountTokenCreator"  = "jenkins-gke@sb-izal-20240703-111957.iam.gserviceaccount.com"
-    "roles/storage.admin"                   = "jenkins-gke@sb-izal-20240703-111957.iam.gserviceaccount.com"
+    "roles/cloudkms.admin"                  = "serviceAccount:jenkins-gke@sb-izal-20240703-111957.iam.gserviceaccount.com"
+    "roles/cloudkms.verifier"               = "serviceAccount:jenkins-gke@sb-izal-20240703-111957.iam.gserviceaccount.com"
+    "roles/container.admin"                 = "serviceAccount:jenkins-gke@sb-izal-20240703-111957.iam.gserviceaccount.com"
+    "roles/resourcemanager.projectIamAdmin" = "serviceAccount:jenkins-gke@sb-izal-20240703-111957.iam.gserviceaccount.com"
+    "roles/owner"                           = "serviceAccount:jenkins-gke@sb-izal-20240703-111957.iam.gserviceaccount.com"
+    "roles/iam.serviceAccountAdmin"         = "serviceAccount:jenkins-gke@sb-izal-20240703-111957.iam.gserviceaccount.com"
+    "roles/iam.serviceAccountTokenCreator"  = "serviceAccount:jenkins-gke@sb-izal-20240703-111957.iam.gserviceaccount.com"
+    "roles/storage.admin"                   = "serviceAccount:jenkins-gke@sb-izal-20240703-111957.iam.gserviceaccount.com"
   }
 
   #   service_accounts = {
