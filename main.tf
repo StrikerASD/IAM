@@ -1,9 +1,17 @@
+/*
+  IMPORTANT NOTE. Before using this repository to create service accounts and access for them, one actions needs
+  to take place beforehand. iam-sa Service Account needs to be created manually in GCP console and those roles
+  needs to be granted: Create Service Accounts, Delete Service Accounts, Project IAM Admin. There will be other
+  roles needed like adding roles for Service Accounts. TO BE UPDATED
+*/
+
 module "IAM" {
   source = "github.com/StrikerASD/IAM_Module"
 
   project_id = "sb-izal-20240703-111957"
   service_accounts = {
     "cluster-service-account" = "cluster service account"
+#     "jenkins-service-account" = "Jenkins service account"
   }
 
 #   service_accounts = {
