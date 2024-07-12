@@ -2,7 +2,9 @@ module "IAM" {
   source = "github.com/StrikerASD/IAM_Module"
 
   project_id = "sb-izal-20240703-111957"
-
+  service_accounts = {
+    "sa-1" = "service account 1"
+  }
 
 #   service_accounts = {
 #     "cluster-service-account" = {
