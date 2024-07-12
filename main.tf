@@ -3,7 +3,7 @@ module "IAM" {
 
   project_id = "sb-izal-20240703-111957"
   service_accounts = {
-    "cluster-service-accoount" = "cluster service account"
+    "cluster-service-account" = "cluster service account"
   }
 
 #   service_accounts = {
