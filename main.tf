@@ -14,6 +14,10 @@ module "IAM" {
 #     "jenkins-service-account" = "Jenkins service account"
   }
 
+  roles = {
+    "roles/viewer" = "cluster-service-account"
+  }
+
 #   service_accounts = {
 #     "cluster-service-account" = {
 #       display_name = "Cluster SA"
