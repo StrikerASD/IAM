@@ -40,3 +40,7 @@ module "IAM" {
 #       ]
 #     }
   }
+
+output "service_account_role_output" {
+  value = module.IAM.service_account_role_output
+}
