@@ -15,7 +15,7 @@ module "IAM" {
   }
 
   roles = {
-    "roles/viewer" = "cluster-service-account"
+    "roles/viewer" = "serviceAccount:cluster-service-account"
   }
 
 #   service_accounts = {
