@@ -7,7 +7,7 @@
 module "IAM" {
   source = "github.com/StrikerASD/IAM_Module"
 
-  project_id = "sb-izal-20240703-111957"
+  project_id = "sb-izal-20240722-110030"
   service_accounts = {
     "cluster-service-account" = "cluster service account"
     #     "jenkins-service-account" = "Jenkins service account"
